@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,400';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #F9F2E7;
+}
+h1{
+  color: #AEE239;
+  font-size: 8em;
+  font-weight: 100;
+  text-align: center;
+}
+#game {
+  background: #FCF8F0;
+  box-shadow: 0 2px 10px #e0e1e2;
+  height: 670px;
+  padding: 20px;
+  margin: auto;
+  width: 670px;
+}
+#game ul li{
+  background: #00A8C6;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #FCF8F0;
+  display: inline-block;
+  height: 200px;
+  list-style: none;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  width: 200px;
+  font-size: 5em;
+  line-height: 200px;
+  vertical-align: middle;
+}
+#summary{
+  text-align: center;
+}
+#message{
+  color: #8FBE00;
+  font-size: 2em;
+  text-align: center;
+  margin: 20px;
+}
+#resetBtn{
+  vertical-align: top;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #40C0CB;
+  border: 0;
+  border-bottom: 2px solid #00A8C6;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #00A8C6;
+  box-shadow: inset 0 -2px #00A8C6;
+}
+#resetBtn:hover{
+  background: #00A8C6;
+}
